@@ -1,1 +1,19 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+header{
+    background-color: black;
+    padding: 10px;
+    color: salmon;
+    text-align: center;
+}
+footer{
+    height: 50px;
+    background-color: black;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
