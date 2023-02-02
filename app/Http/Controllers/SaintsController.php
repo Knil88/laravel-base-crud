@@ -16,5 +16,12 @@ public function home(){
         return view('home',$data);
        
 }
+public function show($id){
+        $saints = Saints::find($id);
+
+        $data = ['saints' => $saints];
+
+        return view('components.saints',$data);
+}
 
 }

@@ -4,13 +4,15 @@
  <ul>
     <li>
         <h4>
-            Name - Date Of Birth
+            Nome - Miracoli
         </h4>
     </li>
   @foreach ($saints as $saint)
-      <li>
-        {{$saint->name}} - {{$saint->date_of_birth}}
-      </li>
+      <a id="saint" href='/saints/{{$saint->id}}'>
+        <li>
+            {{$saint->name}} - {{$saint->miracles}}
+          </li>
+      </a>
      
   @endforeach
  </ul>

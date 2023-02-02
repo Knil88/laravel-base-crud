@@ -15,3 +15,4 @@ use App\Http\Controllers\SaintsController;
 */
 
 Route::get('/',  [SaintsController::class,'home']);
+Route::get('/saints/{id}',[SaintsController::class,'show']);
