@@ -2,8 +2,8 @@
 
 @section('content')
 <section>
-  <div class="container_saint">
-    <h2 class="animate__animated animate__fadeInUp">
+  <div class="container_saint animate__animated animate__fadeInUp">
+    <h2 >
       Santissimo: {{$saints->name}}
       <br>
       Nato a:{{$saints->city_of_birth}}
