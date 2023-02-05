@@ -2,7 +2,9 @@
 @section('content')
 <main>
   
-        <a href="{{ route('saint.create') }}">CREATE NEW SAINT</a>
+     <div class="div_create">
+        <a id="create" href="{{ route('saint.create') }}">CREATE NEW SAINT</a>
+     </div>
     
  <ul>
     <li>
