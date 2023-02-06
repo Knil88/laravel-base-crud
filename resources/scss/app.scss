@@ -38,8 +38,11 @@ padding: 10px;
 border-radius: 15px;
 border: 2px solid white;
 backdrop-filter: blur(4px);
+overflow: scroll;
+max-height: 69vh;
+margin-bottom: 18px;
 
-filter: blur(0.5);
+
 }
 .container_saint{
     opacity: 0.7;
